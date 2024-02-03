@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="overall.css">
+    <style>
+
+        .navbar {
+            background-color: #6f42c1; 
+        }
+
+        .navbar-toggler {
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .navbar-toggler-icon {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 4px;
+        }
+
+        .navbar-nav .nav-link {
+            border-radius: 20px;
+            margin: 0 8px;
+            color: white;
+        }
+
+        /* Body styling */
+        body {
+            background-image: url("blur.jpg");
+            margin: 0;
+            padding-top: 56px;
+        }
+
+
+        .services-section {
+            background-color: transparent; 
+            border-radius: 15px;
+            padding: 50px 0;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-item {
+            background-color: #ffffff; 
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-title {
+            color: #6f42c1; 
+            margin-bottom: 10px;
+        }
+
+        .service-description {
+            color: #495057; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BUGARIN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="dashboard.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="project.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="services-section">
+        <div class="container">
+            <h2 class="text-center mb-5" style="color: white">My Services</h2>
+
+
+            <div class="service-item">
+                <h3 class="service-title">Full-stack Developer (languages: python, kotlin, java, php, blade)</h3>
+                <p class="service-description">- Proficient in Python, Kotlin, Java, PHP, and Blade. Capable of working as a full-stack
+                            developer.</p>
+            </div>
+
+
+            <div class="service-item">
+                <h3 class="service-title">Video Editor</h3>
+                <p class="service-description">- Experienced in editing various types of videos, from short stories to music videos.</p>
+            </div>
+
+
+            <div class="service-item">
+                <h3 class="service-title">Front-end Developer (Web, Mobile)</h3>
+                <p class="service-description">- Proficient in HTML and front-end development for XML mobile applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-4">
+        <p>&copy; 2024 Copyrights from Josh Brian F. Bugarin.</p>
+    </footer>
+
+</body>
+
+</html>

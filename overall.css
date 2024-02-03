@@ -1,0 +1,147 @@
+body {
+    background-image: url("blur.jpg");
+    margin: 0; 
+    padding-top: 56px; 
+}
+
+ footer {
+      bottom: 0;
+      width: 100%;
+      background-color: #f8f9fa;
+      text-align: center;
+      margin-top: 50px;
+      padding: 10px;
+    }
+
+.h1 {
+    color: white;
+    font-style: bold;
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -50px;
+}
+
+.cyan-backgroundd {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    width: 90%;
+}
+
+.cyan-background {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    width: 90%;
+}
+
+
+.header-title {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font: 40px "Lato", sans-serif;
+    color: #FFF;
+}
+
+.header-p {
+    text-transform: uppercase;
+    font: 25px "Lato", sans-serif;
+    color: #FFF;
+}
+
+.profile-picture {
+    max-width: 100%;
+    height: auto;
+}
+
+.profile-info {
+            margin-top: 20px;
+        }
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .cyan-backgroundd {
+    width: 70%
+  }
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .cyan-background {
+    width: 100%
+  }  
+
+@media only screen and (min-width: 993px) {
+  .cyan-background {
+    width: 80%
+}  
+
+.navbar-nav .nav-link active {
+    color: white;
+}
+
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: orange;
+}
+
+.navbar-nav .nav-link.active {
+    color: orange;
+}
+
+.container {
+  margin-top: 4rem;
+}
+
+
+
+.card {
+  width: 100%; 
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-top: 2rem;
+  }
+
+  .card {
+    width: 80%; 
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .container {
+    margin-top: 3rem;
+  }
+
+  .card {
+    width: 100%; 
+  } 
+}
+
+
+
+@media only screen and (min-width: 993px) {
+  .container {
+    margin-top: 2rem;
+  }
+
+  .card {
+    width: 70%; 
+  }
+}
+
+
+
+
+
